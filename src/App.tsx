@@ -1,11 +1,14 @@
-import React from 'react';
-import {Box} from "@mui/material";
+import React from 'react'
+import { Box } from '@mui/material'
+import { TextExpander } from './components/TextExpander/TextExpander'
+import { loremIpsumText } from './common/mock'
+
 function App() {
   return (
     <Box>
-   textExpander
+      <TextExpander>{loremIpsumText}</TextExpander>
     </Box>
-  );
+  )
 }
 
-export default App;
+export default App
